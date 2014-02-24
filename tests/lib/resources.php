@@ -68,7 +68,7 @@ return call_user_func( function() {
 
 		'jquery.inputautoexpand.tests' => $moduleTemplate + array(
 			'scripts' => array(
-				'jquery/jquery.inputautoexpand.tests.js',
+				'jquery/jquery.inputAutoExpand.tests.js',
 			),
 			'dependencies' => array(
 				'jquery.inputautoexpand',
