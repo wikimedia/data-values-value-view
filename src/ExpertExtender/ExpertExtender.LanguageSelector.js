@@ -98,7 +98,7 @@
 		 */
 		getValue: function() {
 			return this._inverseLanguagesMap ? this._inverseLanguagesMap[ this.$selector.val() ] : this.$selector.val();
-		},
+		}
 	} );
 
 	function getLanguagesMaps( getMsg ) {
