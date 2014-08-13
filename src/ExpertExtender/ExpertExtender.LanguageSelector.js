@@ -54,10 +54,14 @@
 		 */
 		init: function( $extender ) {
 			if( this._languagesMap ) {
+				var source = $.map( this._languagesMap, function( language ) {
+					return language;
+				} );
+				if( ''.localeCompare ) {
+					source.sort( function( a, b ) { return a.localeCompare( b ); } );
+				}
 				this.$selector.languagesuggester( {
-					source: $.map( this._languagesMap, function( language ) {
-						return language;
-					} ),
+					source: source,
 					change: this._onValueChange
 				} );
 			} else {
