@@ -22,7 +22,7 @@ $wgExtensionCredits['datavalues'][] = array(
 		'[http://www.snater.com H. Snater]',
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ValueView',
-	'descriptionmsg' => 'valueview-desc',
+	'description' => 'UI components for displaying and editing data values',
 );
 
 $wgMessagesDirs['ValueView'] = __DIR__ . '/i18n';
