@@ -105,6 +105,9 @@ Other methods an Expert needs to provide:
 
 ## Release notes
 
+### 0.6.11 (2014-09-03)
+* Fix problem with jquery.ui.core styles overriding references toggle styles. (bug 70327)
+
 ### 0.6.10 (2014-08-14)
 * Remove ResourceLoader dependencies on jquery and mediawiki (bug 69468)
 
