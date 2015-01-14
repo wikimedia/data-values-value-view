@@ -106,6 +106,9 @@ Other methods an Expert needs to provide:
 ## Release notes
 
 ### 0.11.0 (dev)
+
+#### Behaviour changes
+
 * `jQuery.ui.toggler`: Added parameter to `animation` event determining whether the toggler's subject will be visible or hidden.
 * `jQuery.ui.toggler`: Changed `_reflectVisibilityOnToggleIcon` to be private.
 * `jQuery.ui.toggler`: Added `refresh` function to be able to reflect visibility changes to the toggler's subject that have been applied externally.
