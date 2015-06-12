@@ -135,6 +135,7 @@ return call_user_func( function() {
 				'valueview-expert-timeinput-precision',
 				'valueview-expert-timevalue-calendar-gregorian',
 				'valueview-expert-timevalue-calendar-julian',
+				'valueview-listrotator-auto',
 			),
 		),
 

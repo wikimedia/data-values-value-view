@@ -160,12 +160,14 @@
 	function getPrecisionValues() {
 		var precisionValues = [],
 			dayPrecision = TimeValue.getPrecisionById( 'DAY' );
+
 		$.each( TimeValue.PRECISIONS, function( precisionValue, precision ) {
+			// TODO: Remove this check as soon as time values are supported.
 			if( precisionValue <= dayPrecision ) {
-				// TODO: Remove this check as soon as time values are supported.
 				precisionValues.unshift( { value: precisionValue, label: precision.text } );
 			}
 		} );
+
 		return precisionValues;
 	}
 
@@ -176,13 +178,16 @@
 	 * @return {Object[]} [{ value: <{string}>, label: <{string}>}, ...]
 	 */
 	function getCalendarValues( messageProvider ) {
-		var calendarValues = [];
+		var label = messageProvider.getMessage( 'valueview-listrotator-auto' ),
+			calendarValues = [ { value: null, label: label } ];
+
 		$.each( TimeValue.CALENDARS, function( key, uri ) {
 			var label = messageProvider.getMessage(
 				'valueview-expert-timevalue-calendar-' + key.toLowerCase()
 			) || key.toLowerCase();
 			calendarValues.push( { value: uri, label: label } );
 		} );
+
 		return calendarValues;
 	}
 
