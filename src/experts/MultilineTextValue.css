@@ -1,0 +1,6 @@
+.multilinevalueview-instaticmode {
+	font-size: 12px;
+	font-family: monospace, monospace;
+	white-space: pre;
+	overflow-x: auto;
+}
