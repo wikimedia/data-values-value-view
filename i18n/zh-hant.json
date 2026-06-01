@@ -4,6 +4,7 @@
 			"A2093064",
 			"Kly",
 			"Liuxinyu970226",
+			"LowensteinYang",
 			"Simon Shek",
 			"Stevenliuyi",
 			"Wehwei",
@@ -11,8 +12,8 @@
 			"Xiplus"
 		]
 	},
-	"valueview-expert-unsupportedvalue-unsupporteddatavalue": "尚未支援「$1」值的操作。",
-	"valueview-expert-unsupportedvalue-unsupporteddatatype": "尚未支援「$1」數據值的操作。",
+	"valueview-expert-unsupportedvalue-unsupporteddatavalue": "尚未支援「$1」值的處理。",
+	"valueview-expert-unsupportedvalue-unsupporteddatatype": "尚未支援資料類型「$1」的值的處理。",
 	"valueview-expert-emptyvalue-empty": "空",
 	"valueview-expert-globecoordinateinput-precision": "精度：",
 	"valueview-expert-globecoordinateinput-nullprecision": "未指定",
@@ -46,6 +47,6 @@
 	"valueview-expertextender-languageselector-label": "語言（必填）：",
 	"valueview-expertextender-unitsuggester-label": "單位（非必填）：",
 	"valueview-preview-label": "將顯示為：",
-	"valueview-preview-novalue": "無法識別",
+	"valueview-preview-novalue": "未識別有效值",
 	"valueview-listrotator-manually": "手動設定"
 }
