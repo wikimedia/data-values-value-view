@@ -5,6 +5,8 @@
 			"شاه زمان پټان"
 		]
 	},
+	"valueview-expert-unsupportedvalue-unsupporteddatavalue": "د \"$1\" ارزښتونو سمبالول لاتراوسه ملاتړ شوې نه دي.",
+	"valueview-expert-unsupportedvalue-unsupporteddatatype": "د \"$1\" اومتوک ډول لپاره د ارزښتونو سمبالول لاتراوسه ملاتړ شوې نه دي.",
 	"valueview-expert-emptyvalue-empty": "تش",
 	"valueview-expert-globecoordinateinput-precision": "بيخي‌سمون:",
 	"valueview-expert-globecoordinateinput-nullprecision": "نامشخص‌شوی",
