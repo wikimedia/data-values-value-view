@@ -4,13 +4,14 @@
 			"Chrumps",
 			"CiaPan",
 			"Msz2001",
+			"PanWor",
 			"Ty221",
 			"WTM",
 			"XnIcRaM"
 		]
 	},
-	"valueview-expert-unsupportedvalue-unsupporteddatavalue": "Wartości typu \"$1\" nie są jeszcze obsługiwane.",
-	"valueview-expert-unsupportedvalue-unsupporteddatatype": "Wartości typu danych \"$1\" nie są jeszcze obsługiwane.",
+	"valueview-expert-unsupportedvalue-unsupporteddatavalue": "Wartości typu „$1” nie są jeszcze obsługiwane.",
+	"valueview-expert-unsupportedvalue-unsupporteddatatype": "Wartości typu danych „$1” nie są jeszcze obsługiwane.",
 	"valueview-expert-emptyvalue-empty": "pusty",
 	"valueview-expert-globecoordinateinput-precision": "Precyzja:",
 	"valueview-expert-globecoordinateinput-nullprecision": "nie określono",
